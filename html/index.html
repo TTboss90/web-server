@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Server</title></head>
+    <body>
+        <h1>Hello</h1>
+        <p>This page was served by my server.</p>
+
+        <h2>GET Form</h2>
+        <form method=GET action="./main">
+            <label for=name>Name:</label>
+            <input type=text id=name name=name>
+            <label for=name>Name2:</label>
+            <input type=text id=name2 name=name2>
+            <input type=submit value=Send GET>
+        </form>
+
+        <h2>POST Form</h2>
+        <form method=POST action="./main">
+            <label for=message>Message:</label>
+            <input type=text id=message name=message>
+            <label for=message>Message2:</label>
+            <input type=text id=message2 name=message2>
+            <input type=submit value=Send POST>
+        </form>
+
+    </body>
+</html>
